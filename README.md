@@ -37,7 +37,7 @@ b. Email Table
 		iv. Body
     
 How to run the project : 
-1. Open the project in a IDE.
-2. Go to src/main/java/com/assign/emailManager/EmailManagerApplication.java
-3. Run the main method present in the class by right clicking it.
-4. The project is up running at localhost:8080
+	1. Open the project in a IDE.
+	2. Go to src/main/java/com/assign/emailManager/EmailManagerApplication.java
+	3. Run the main method present in the class by right clicking it.
+	4. The project is up running at localhost:8080
