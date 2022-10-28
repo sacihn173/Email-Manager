@@ -1,5 +1,8 @@
 # Email-Manager
 
+APIs : 
+
+
 POST /user    ( Creates a new user)
 
 GET  /users   ( Returns list of users)
@@ -13,15 +16,24 @@ GET  /emails/count/{userId} (Returns number of email send by a user)
 Tables : 
 
 a. User Table
+		
 		i. First Name
+		
 		ii. Last name
+		
 		iii. Email address
+		
 		iv. phone number
 
 b. Email Table
+		
+		
 		i. From
+		
 		ii. To
+		
 		iii. Subject 
+		
 		iv. Body
     
 How to run the project : 
