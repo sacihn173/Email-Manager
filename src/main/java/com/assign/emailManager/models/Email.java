@@ -1,9 +1,6 @@
 package com.assign.emailManager.models;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 public class Email {
@@ -11,8 +8,13 @@ public class Email {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long emailId;
+
+    @Column(nullable = false)
     private String receivedFrom;
+
+    @Column(nullable = false)
     private String sendTo;
+
     private String subject;
     private String body;
 

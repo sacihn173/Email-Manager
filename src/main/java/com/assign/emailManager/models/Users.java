@@ -1,9 +1,8 @@
 package com.assign.emailManager.models;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import com.sun.istack.NotNull;
+
+import javax.persistence.*;
 
 @Entity
 public class Users {
@@ -11,9 +10,16 @@ public class Users {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long userId;
+
+    @Column(nullable = false)
     private String firstName;
+
+    @Column(nullable = false)
     private String lastName;
+
+    @Column( nullable = false)
     private String emailAddress;
+
     private String phoneNumber;
 
     public long getUserId() {
