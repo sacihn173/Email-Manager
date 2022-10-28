@@ -3,15 +3,15 @@
 APIs : 
 
 
-POST /user    ( Creates a new user)
+	POST /user    ( Creates a new user)
 
-GET  /users   ( Returns list of users)
+	GET  /users   ( Returns list of users)
 
-GET  /user/{id} (Return user by id)
+	GET  /user/{id} (Return user by id)
 
-POST /email    (Create an email in DB)
+	POST /email    (Create an email in DB)
 
-GET  /emails/count/{userId} (Returns number of email send by a user)
+	GET  /emails/count/{userId} (Returns number of email send by a user)
 
 Tables : 
 
