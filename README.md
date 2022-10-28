@@ -1,10 +1,13 @@
 # Email-Manager
 
 POST /user    ( Creates a new user)
+
 GET  /users   ( Returns list of users)
+
 GET  /user/{id} (Return user by id)
 
 POST /email    (Create an email in DB)
+
 GET  /emails/count/{userId} (Returns number of email send by a user)
 
 Tables : 
