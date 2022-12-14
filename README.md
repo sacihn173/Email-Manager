@@ -1,5 +1,9 @@
 # Email-Manager
 
+Spring Boot backend for a email service.
+Keeps track of emails send by a user to another user.
+
+Contains following endpoints : 
 
 APIs : 
 
